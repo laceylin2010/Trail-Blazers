@@ -13,4 +13,3 @@ function addMarker(){
     map: map
   });
 }
-addMarker();
