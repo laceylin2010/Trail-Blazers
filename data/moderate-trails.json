@@ -1,0 +1,42 @@
+[
+  {
+  "id": "little-si",
+  "title": "Little Si",
+  "location": "Snoqualmie Region",
+  "round-trip": "4.7 miles",
+  "difficulty": "Moderate",
+  "description": "Companion piece to neighbor and big brother Mount Si, the small rocky bluff known as Little Si is a moderately graded 4.7 mile trail located in the hike rich North Bend area. Although relatively steep inclines bookend this hike, this primarily north to south route is perfect for beginners who are looking to get back in shape. But with opportunities to cut away on the Boulder Garden Loop at 0.3 miles and 0.5 miles to merge with the more challenging Mount Si trail, it also accommodates veteran hikers. Expect crowds; the two Si peaks are sometimes colloquially referred to as 'Resolution Peaks' due to the onslaught of hikers that appear after January 1st. The trail's proximity to the city and a degree of refuge from the elements often divert heavy foot traffic to this mini-mountain, keeping it busy year round."
+},
+{
+  "id": "poo-poo-point",
+  "title": "Poo Poo Point via Chirico Trail",
+  "location": "Issaquah Region",
+  "round-trip": "7.2 miles",
+  "difficulty": "Moderate",
+  "description": "Poo Poo Point lies on a shoulder of West Tiger Mountain, and a small knoll there is topped by a mast with a windsock. The knoll is only a few feet higher than the surrounding area, but it qualifies Poo Poo Point - if minimally - as one of West Tiger's summits. The folksy name is a reference to the steam whistle sounds heard throughout the Tigers in the early days of logging. More recently (1970s) the area around Poo Poo Point was logged by its then owners, Weyerhaeuser Corporation. They even took the stumps! The result is a large clear area used now as a launching pad by paragliders who generally backpack their lightweight gear up the Chirico Trail, or sometimes arrive by minibus. The Point also offers a fine view northwest across Issaquah and Lake Sammamish toward Bellevue's downtown. To the west are Squak and Cougar Mountains, with a hint of Seattle's tallest buildings showing beyond."
+},
+{
+  "id": "bandera-mountain",
+  "title": "Bandera Mountain",
+  "location": "Snoqualmie Region",
+  "round-trip": "8.0 miles",
+  "diffculty":"Moderate",
+  "description": "Bandera Mountain is a chameleon. Most would describe it as an easy hike--relatively short and not very steep for most of its length–-but then it suddenly changes, turning informal and rough, particularly in its last half mile, making it feel like the rugged backcountry trek it at times can be.Start out on the Ira Spring Trail. The parking lot will likely be full if you come here on a nice weekend day. Not only is Bandera a popular hike, but it shares a trailhead with the equally popular trails to Mason Lake and Mount Defiance. For the first mile and a half, it is gentle and wide as it follows an old road bed (about halfway through this first section, a water crossing may be somewhat difficult during times of heavy runoff). The trail departs the old road and heads more steeply uphill. Occasional breaks in the trees enable partial views of Rainier to the south."
+},
+{
+  "id": "eagle-creek",
+  "title": "Eagle Creek and Tunnel Falls",
+  "location": "Southwest Washington/Columbia River OR",
+  "round-trip": "12 miles",
+  "difficulty": "moderate",
+  "description": " This is a beautiful gorge hike not far from Portland. It takes you on trails that hug cliffs (hope you don't have a fear of heights) and past numerous beautiful waterfalls. I hiked this trail on a rainy weekend in the spring so water levels were high (high enough for kayakers to run the canyon beneath us). I suggest doing this hike in the spring or early summer as well to really appreciate the beautiful waterfalls."
+},
+{
+  "id": "wallace-falls",
+  "title": "Wallace Falls",
+  "location": "Central Cascades/Stevens Pass",
+  "round-trip": "4.5 miles",
+  "difficulty": "moderate",
+  "description": "Despite the foot traffic Wallace Falls sees as one of Washington’s most popular attractions, those who get out early on the trailhead will be rewarded with a serene tranquility that few other hikes in the area can offer. And unlike many trails, which sacrifice peripheral scenery on the journey for the prospect of a grand summit view, the Woody Trail is consistently gorgeous as you wind your way along the Wallace River and approach the nine dazzling falls."
+}
+]
