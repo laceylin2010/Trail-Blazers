@@ -1,3 +1,9 @@
+var hikeLocations = [
+  ['Rattlesnake Ridge', 46.4173432, -121.0270189],
+  ['Pretzel Tree Trail', 47.4808, -122.0554],
+  ['Lower Coal Creek Trail', 47.5542, -122.166],
+];
+
 function initMap(){
   var mapView = document.getElementById('map');
   var map = new google.maps.Map(mapView,{

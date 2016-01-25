@@ -5,6 +5,18 @@
     <title>Trail Blazers</title>
     <link rel="stylesheet" href="css/map.css">
     <link rel="stylesheet" href="css/layout.css">
+
+      <script id='trail-descriptions' type='text/x-handlebars-template'>
+        <article class='individual-trails'>
+          <h3>{{title}}</h3>
+          <p>{{location}}</p>
+          <p>Trail length: {{distance}}</p>
+          <p class={{difficulty}}>Difficulty: {{difficulty}}</p>
+          <p>{{description}}</p>
+        </article>
+      </script>
+
+
   </head>
   <body>
     <nav>
@@ -20,10 +32,18 @@
 
     <p>t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
 
+    <div id='trail-template'></div>
+
     <div id="map"></div>
   </body>
   <script src="js/map.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBUUeZEAF4QVx47vln7Nf2hcpGqvmnphsM&callback=initMap"
   async defer></script>
+  <script src="vendors/handlebars.js"></script>
   <script src="vendors/jquery-2.1.4.js"></script>
+  <script src="js/trails.js"></script>
+  <script src="js/trailsView.js"></script>
+  <script>
+    Trails.fetchAll();
+  </script>
   </html>
