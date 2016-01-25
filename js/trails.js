@@ -3,7 +3,7 @@
   function Trails(trls) {
     this.title = trls.title;
     this.location = trls.location;
-    this.distance = trls.distance;
+    this.roundTrip = trls.roundTrip;
     this.difficulty = trls.difficulty;
     this.description = trls.description;
   }
