@@ -1,24 +1,83 @@
 [
   {
+    "id": "rattlesnake-ridge",
     "title": "Rattlesnake Ridge",
     "location": "Snoqualmie Region",
-    "distance": "4.0 miles",
+    "round-trip": "4.0 miles",
     "difficulty": "Easy",
     "description": "This is a very popular trail in the summer months. It is a short 30 minute drive from downtown Bellevue or under an hour away from Seattle. Not only does this trail provide you with great panoramic views from atop Rattlesnake Ridge but there is also a great park located down below. Many people come to the use the lake in the warmer months. There are no motored boats or fishing allowed on the lake which makes this place ideal for kayakers and swimmers alike."
   },
   {
+    "id": "pretzel-tree",
     "title": "Pretzel Tree Trail",
     "location": "Issaquah Alps",
-    "distance": "0.8 miles",
-    "difficulty": "easy",
+    "round-trip": "0.3 miles",
+    "difficulty": "Easy",
     "description": "This is a great hike for you to take the kids on. The trail is short and has almost no elevation change to it. It also provides a little education on how the forest and its animals work together to form an ecosystem. You will follow Field Mouse, who is the lead character, while he takes his first hike into the forest. Along the way he will encounter several of the forest inhabitants who educate him on their jobs in the forest. As you follow along on his journey you will meet a crow, bugs, tree frog, woodpecker, beaver, and a squirrel. Each one of them will explain their role in the forest."
   },
   {
-    "title": "Lower Coal Creek Trail",
+    "id": "coal-creek",
+    "title": "Coal Creek Trail",
     "location": "Bellevue, WA",
-    "distance": "4.4 miles",
-    "difficulty": "easy",
-    "description": " This trail is an excellent finish to the four trails of Coal Creek Park. This trail offers the best views of Coal Creek and offers more of a challenge. The hills are not terribly steep but there are many and opportunity to rest is few. This trail is just over 4 miles out and back. I think it provides the best views of Coal Creek and will be the best hike in Coal Creek Park when all improvements have been completed."
+    "round-trip": "6 miles",
+    "difficulty": "Easy",
+    "description": "This trail is an excellent finish to the four trails of Coal Creek Park. This trail offers the best views of Coal Creek and offers more of a challenge. The hills are not terribly steep but there are many and opportunity to rest is few. This trail is just over 4 miles out and back. I think it provides the best views of Coal Creek and will be the best hike in Coal Creek Park when all improvements have been completed. This trail has two parts. A lower trail and a higher ground trail. Combined it equals 6 miles but seperately it is around 2 miles."
+  },
+  {
+    "id": "wildside-trail",
+    "title": "Wildside Trail",
+    "location": "Issaquah Alps",
+    "round-trip": "4.2 miles",
+    "difficulty": "Easy",
+    "description": "Heading out from the parking area you will come to a trailhead marker for Red Town Trail and Wildside Trail. Take the path to the right to begin down the trail. The trail starts off wide and well maintained, however once you arrive at the first bridge the trail can get muddy. Once you cross over the stream you should see a short set of wooden stairs leading up. At the top of the stairs is the junction point for 3 different trails. Head to your left and continue on for 30-40 feet and you should see the trailhead marker to continue on the Wildside Trail. This is where the trail gets muddy; I would suggest having an extra pair of shoes to change into to keep your car clean. Once over the two small bridges you should not have any problems navigating the trail. In about .4 miles you should come to another trailhead marker for Marshall's Hill Trail. Continue straight and the end of the trail will be .3 away from the last junction. This last section can be really muddy; I have had mud come up past my high top boots on a few occasions. When you come to an area with two railroad ties sticking out of the ground you will be near the end of the trail. At the end of the trail you can make a left and take a look at the retention pond, but I would advise against this if you are hiking in the summer time as there will be mosquitoes."
+  },
+  {
+  "id": "wenatchee-crest",
+  "title": "Wenatchee Crest Snowshoe",
+  "location": "Central Cascades",
+  "round-trip": "6.0 miles",
+  "difficulty": "Easy",
+  "description": "The Wenatchee Crest near Blewett Pass is an ideal entry-level snowshoe, thanks to its modest elevation gain and panoramic views from the ridgetop. And even with such an easily accessible trailhead, the crowds are often minimal."
+},
 
-  }
+  {
+  "id": "little-si",
+  "title": "Little Si",
+  "location": "Snoqualmie Region",
+  "round-trip": "4.7 miles",
+  "difficulty": "Moderate",
+  "description": "Companion piece to neighbor and big brother Mount Si, the small rocky bluff known as Little Si is a moderately graded 4.7 mile trail located in the hike rich North Bend area. Although relatively steep inclines bookend this hike, this primarily north to south route is perfect for beginners who are looking to get back in shape. But with opportunities to cut away on the Boulder Garden Loop at 0.3 miles and 0.5 miles to merge with the more challenging Mount Si trail, it also accommodates veteran hikers. Expect crowds; the two Si peaks are sometimes colloquially referred to as 'Resolution Peaks' due to the onslaught of hikers that appear after January 1st. The trail's proximity to the city and a degree of refuge from the elements often divert heavy foot traffic to this mini-mountain, keeping it busy year round."
+},
+{
+  "id": "poo-poo-point",
+  "title": "Poo Poo Point via Chirico Trail",
+  "location": "Issaquah Region",
+  "round-trip": "7.2 miles",
+  "difficulty": "Moderate",
+  "description": "Poo Poo Point lies on a shoulder of West Tiger Mountain, and a small knoll there is topped by a mast with a windsock. The knoll is only a few feet higher than the surrounding area, but it qualifies Poo Poo Point - if minimally - as one of West Tiger's summits. The folksy name is a reference to the steam whistle sounds heard throughout the Tigers in the early days of logging. More recently (1970s) the area around Poo Poo Point was logged by its then owners, Weyerhaeuser Corporation. They even took the stumps! The result is a large clear area used now as a launching pad by paragliders who generally backpack their lightweight gear up the Chirico Trail, or sometimes arrive by minibus. The Point also offers a fine view northwest across Issaquah and Lake Sammamish toward Bellevue's downtown. To the west are Squak and Cougar Mountains, with a hint of Seattle's tallest buildings showing beyond."
+},
+{
+  "id": "bandera-mountain",
+  "title": "Bandera Mountain",
+  "location": "Snoqualmie Region",
+  "round-trip": "8.0 miles",
+  "diffculty":"Moderate",
+  "description": "Bandera Mountain is a chameleon. Most would describe it as an easy hike--relatively short and not very steep for most of its length–-but then it suddenly changes, turning informal and rough, particularly in its last half mile, making it feel like the rugged backcountry trek it at times can be.Start out on the Ira Spring Trail. The parking lot will likely be full if you come here on a nice weekend day. Not only is Bandera a popular hike, but it shares a trailhead with the equally popular trails to Mason Lake and Mount Defiance. For the first mile and a half, it is gentle and wide as it follows an old road bed (about halfway through this first section, a water crossing may be somewhat difficult during times of heavy runoff). The trail departs the old road and heads more steeply uphill. Occasional breaks in the trees enable partial views of Rainier to the south."
+},
+{
+  "id": "eagle-creek",
+  "title": "Eagle Creek and Tunnel Falls",
+  "location": "Southwest Washington/Columbia River OR",
+  "round-trip": "12 miles",
+  "difficulty": "Moderate",
+  "description": " This is a beautiful gorge hike not far from Portland. It takes you on trails that hug cliffs (hope you don't have a fear of heights) and past numerous beautiful waterfalls. I hiked this trail on a rainy weekend in the spring so water levels were high (high enough for kayakers to run the canyon beneath us). I suggest doing this hike in the spring or early summer as well to really appreciate the beautiful waterfalls."
+},
+{
+  "id": "wallace-falls",
+  "title": "Wallace Falls",
+  "location": "Central Cascades/Stevens Pass",
+  "round-trip": "4.5 miles",
+  "difficulty": "Moderate",
+  "description": "Despite the foot traffic Wallace Falls sees as one of Washington’s most popular attractions, those who get out early on the trailhead will be rewarded with a serene tranquility that few other hikes in the area can offer. And unlike many trails, which sacrifice peripheral scenery on the journey for the prospect of a grand summit view, the Woody Trail is consistently gorgeous as you wind your way along the Wallace River and approach the nine dazzling falls."
+}
 ]
