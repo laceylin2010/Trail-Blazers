@@ -23,7 +23,7 @@
       <ul class='main-tabs'>
         <li><a href="">Home</a>
         </li>
-        <li><a href="" class='easy-trails'>Easy Trails</a>
+        <li><a href="/easy" class='easy-trails'>Easy Trails</a>
           <ul class="sub-tabs">
             <li><a href="">Rattlesnake Ridge</a></li>
             <li><a href="">Pretzel Tree</a></li>
@@ -32,7 +32,7 @@
             <li><a href="">Wenatchee Crest</a></li>
           </ul>
         </li>
-        <li><a href="" class='moderate-trails'>Moderate Trails</a>
+        <li><a href="/moderate" class='moderate-trails'>Moderate Trails</a>
           <ul class="sub-tabs">
             <li><a href="">Little Si</a></li>
             <li><a href="">Poo Poo Point</a></li>
@@ -41,7 +41,7 @@
             <li><a href="">Wallace Falls</a></li>
           </ul>
         </li>
-        <li><a href="" class='difficulty-trails'>Difficult Trails</a>
+        <li><a href="/difficult" class='difficulty-trails'>Difficult Trails</a>
           <ul class="sub-tabs">
             <li><a href="">Mt. Baker</a></li>
             <li><a href="">Granite Mountaint</a></li>
@@ -50,12 +50,9 @@
             <li><a href="">Jade Lake</a></li>
           </ul>
         </li>
-        <li><a href="" class='about-tab'>About Us</a></li>
+        <li><a href="/aboutUs" class='about-tab'>About Us</a></li>
       </ul>
     </nav>
-    <h1> Welcome to our blank website</h1>
-
-    <p>t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
 
     <div id='trail-template'></div>
 
@@ -68,10 +65,11 @@
   <!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB1xJXhun8p_tYgPm6FrhVRMXbtynXzoMs&libraries=places"></script> -->
   <script src="vendors/handlebars.js"></script>
   <script src="vendors/jquery-2.1.4.js"></script>
+  <script src='vendors/page.js'></script>
   <script src="js/trails.js"></script>
   <script src="js/trailsView.js"></script>
   <script src="js/easyController.js"></script>
-  <script>
-    Trails.fetchAll();
-  </script>
+  <script src='js/routes.js'></script>
+
+
   </html>
