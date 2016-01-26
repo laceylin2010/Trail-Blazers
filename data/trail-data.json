@@ -78,5 +78,46 @@
   "roundTrip": "4.5 miles",
   "difficulty": "Moderate",
   "description": "Despite the foot traffic Wallace Falls sees as one of Washington’s most popular attractions, those who get out early on the trailhead will be rewarded with a serene tranquility that few other hikes in the area can offer. And unlike many trails, which sacrifice peripheral scenery on the journey for the prospect of a grand summit view, the Woody Trail is consistently gorgeous as you wind your way along the Wallace River and approach the nine dazzling falls."
+},
+{
+  "id": "mt-baker-standard-summit-route",
+  "title": "Mt. Baker Standard Summit Route",
+  "location": "Mt. Baker",
+  "roundTrip": "24.2 miles",
+  "difficulty": "Difficult",
+  "description": "This is a beautiful climb up one of the most glaciated peaks in the lower 48. In the summer you will see beautiful wildflowers. You will camp high up on the Coleman Glacier and make a summit bid early the next morning before the sun comes up. We found the best place to camp was high on the Coleman Glacier underneath a rocky ridge to climbers right. Beware of crevasses on this entire hike."
+},
+{
+  "id": "granite-mountain",
+  "title": "Granite Mountain",
+  "location": "Snoqualmie Pass",
+  "roundTrip": "16.2 miles",
+  "difficulty": "Difficult",
+  "description": "Follow a very steep trail for 4 miles to the summit of this tall peak alongside I-90. You will have spectacular views from the top, where there is a fire tower, of the surrounding alpine lakes and peaks. You will also have a great view of Mt. Rainier towering above all the other peaks to the south."
+},
+{
+  "id": "loowit-falls",
+  "title": "Loowit Falls",
+  "location": "Mt. St. Helens",
+  "roundTrip": "17 miles",
+  "difficulty": "Difficult",
+  "description": "A great hike from the Johnston Ridge Observatory, across the pumice planes in the devastated area destroyed in the 1980 eruption, and part of the way up the mountain to beautiful Loowit Falls. Mt. St. Helens is in Washington State. It's about sixty miles off highway five about 70 miles from Porland and about a hundred and fifty miles south of Seattle. It can be reached from the south, the west, and the northwest sides. Once a 9,700 ft cone-shaped stratovolcano, Mt. St. Helens erupted in 1980 sending an ash cloud thousands of feet high. the explosion blew off the top and north side of the mountain, and devastated the forests for miles. The mountain is now a national monument and a research site on the re-emergence of a forest from complete annihilation. Thirty years later, moss covers the ground as far as the eye can see, wildflowers bloom as tiny streams weave their way across the plains, and tiny trees and bushes sprout up from the soil in a reminder to us all that life will find a way. The hike to Loowit Falls is an all day hike, 8.5 miles one way! Get started early and bring a headlamp just in case you get back during the evening."
+},
+{
+  "id": "mt-adams-standard-summit",
+  "title": "Mt. Adams Standard Summit",
+  "location": "Mt. Adams",
+  "roundTrip": "25 miles",
+  "difficulty": "Difficult",
+  "description": "This is a challenging climb up a 12,000 foot volcano in southern Washington. You'll climb close to 7,000 feet for this ski descent. When you get up to the base of the glacier it will look like a highway of climbers in spring and summer months. Hope for good snow as the descent is fantastic. Beware - there is a false summit so be prepared to be disappointed as you crest what you think is the top, only to have to hike another half mile or so. When you ski down get some speed from the true top and you might be able to make it partly up the false summit."
+},
+{
+  "id": "jade-lake",
+  "title": "Jade Lake",
+  "location": "Salmon-La-Sac/Tenaway",
+  "roundTrip": "21 miles",
+  "difficulty": "Difficult",
+  "description": 
 }
+
 ]
