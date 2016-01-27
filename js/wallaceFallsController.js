@@ -7,7 +7,7 @@
     $('#trail-template').show();
     $('.individual-trails').hide();
     $('#wallace-falls').show();
-    $('#map').toggle();
+    $('#map').show();
   };
 
 

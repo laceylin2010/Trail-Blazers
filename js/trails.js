@@ -7,6 +7,7 @@
     this.roundTrip = trls.roundTrip;
     this.difficulty = trls.difficulty;
     this.description = trls.description;
+    this.img = trls.img;
   }
   Trails.all = [];
 

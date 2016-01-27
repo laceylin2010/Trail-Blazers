@@ -7,7 +7,7 @@
     $('#trail-template').show();
     $('.individual-trails').hide();
     $('#eagle-creek').show();
-    $('#map').toggle();
+    $('#map').show();
   };
 
 

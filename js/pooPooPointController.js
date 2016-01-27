@@ -7,7 +7,7 @@
     $('#trail-template').show();
     $('.individual-trails').hide();
     $('#poo-poo-point').show();
-    $('#map').toggle();
+    $('#map').show();
   };
 
 

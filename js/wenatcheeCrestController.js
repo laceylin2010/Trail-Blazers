@@ -7,7 +7,7 @@
     $('#trail-template').show();
     $('.individual-trails').hide();
     $('#wenatchee-crest').show();
-    $('#map').toggle();
+    $('#map').show();
   };
 
 

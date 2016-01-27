@@ -7,7 +7,7 @@
     $('#trail-template').show();
     $('.individual-trails').hide();
     $('#mt-adams-standard-summit').show();
-    $('#map').toggle();
+    $('#map').show();
   };
   module.mtAdamsController = mtAdamsController;
 })(window);

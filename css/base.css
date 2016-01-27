@@ -1,5 +1,10 @@
+body{
+  background-color: #E6F2D5;
+  font-family: Gentium Book Basic;
+}
+
 nav{
-  background-color: #58B93A;
+  background-color: #A1EF8C;
   padding: 20px;
   position: relative;
 }
@@ -14,7 +19,7 @@ ul.main-tabs .sub-tabs{
 
 ul.main-tabs li:hover .sub-tabs{
   display: block;
-  background-color: #58B93A;
+  background-color: #A1EF8C;
 }
 
 ul{

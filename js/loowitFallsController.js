@@ -7,7 +7,7 @@
     $('#trail-template').show();
     $('.individual-trails').hide();
     $('#loowit-falls').show();
-    $('#map').toggle();
+    $('#map').show();
   };
   module.loowitFallsController = loowitFallsController;
 })(window);

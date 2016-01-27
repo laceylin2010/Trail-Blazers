@@ -7,7 +7,7 @@
     $('#trail-template').show();
     $('.individual-trails').hide();
     $('#jade-lake').show();
-    $('#map').toggle();
+    $('#map').show();
   };
   module.jadeLakeController = jadeLakeController;
 })(window);
