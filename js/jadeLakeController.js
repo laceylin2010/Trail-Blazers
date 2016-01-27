@@ -3,6 +3,6 @@
 
   jadeLakeContoller.index = function(){
 
-  }
+  };
   module.jadeLakeContoller = jadeLakeContoller;
-})(window)
+})(window);

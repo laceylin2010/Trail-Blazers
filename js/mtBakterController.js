@@ -3,6 +3,6 @@
 
   mtBakerController.index = function(){
 
-  }
+  };
   module.mtBakerController = mtBakerController;
-})(window)
+})(window);

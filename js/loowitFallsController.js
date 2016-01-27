@@ -3,6 +3,6 @@
 
   loowitFallsController.index = function(){
 
-  }
+  };
   module.loowitFallsController = loowitFallsController;
-})(window)
+})(window);
