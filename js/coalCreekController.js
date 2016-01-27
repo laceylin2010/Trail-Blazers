@@ -7,7 +7,7 @@
     $('#trail-template').show();
     $('.individual-trails').hide();
     $('#coal-creek').show();
-    $('#map').toggle();
+    $('#map').show();
   };
 
 

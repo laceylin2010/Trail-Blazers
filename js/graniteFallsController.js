@@ -6,7 +6,7 @@
     $('#trail-template').show();
     $('.individual-trails').hide();
     $('#granite-mountain').show();
-    $('#map').toggle();
+    $('#map').show();
   };
   module.graniteFallsController = graniteFallsController;
 })(window);

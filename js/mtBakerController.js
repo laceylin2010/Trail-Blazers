@@ -7,7 +7,7 @@
     $('#trail-template').show();
     $('.individual-trails').hide();
     $('#mt-baker-standard-summit-route').show();
-    $('#map').toggle();
+    $('#map').show();
   };
   module.mtBakerController = mtBakerController;
 })(window);

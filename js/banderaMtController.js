@@ -7,7 +7,7 @@
     $('#trail-template').show();
     $('.individual-trails').hide();
     $('#bandera-mountain').show();
-    $('#map').toggle();
+    $('#map').show();
   };
 
 

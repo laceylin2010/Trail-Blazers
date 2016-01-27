@@ -6,7 +6,7 @@
     $('.hiking-pic-bar').hide();
     $('#trail-template').show();
     $('.individual-trails').hide();
-    $('#little-si').show();
+    $('#rattlesnake-ridge').show();
     $('#map').show();
   };
 

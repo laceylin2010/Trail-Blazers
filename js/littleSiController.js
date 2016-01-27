@@ -7,7 +7,7 @@
     $('#trail-template').show();
     $('.individual-trails').hide();
     $('#little-si').show();
-    $('#map').toggle();
+    $('#map').show();
   };
 
 

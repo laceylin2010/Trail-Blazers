@@ -3,9 +3,11 @@
   <head>
     <meta charset="utf-8">
     <title>Trail Blazers</title>
+    <link href='https://fonts.googleapis.com/css?family=Gentium+Book+Basic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/map.css">
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/base.css">
+
 
       <script id='trail-descriptions' type='text/x-handlebars-template'>
         <article id='{{id}}' class='individual-trails'>
@@ -14,6 +16,7 @@
           <p>Trail Length: {{roundTrip}}</p>
           <p class="{{difficulty}}">Difficulty: {{difficulty}}</p>
           <p>{{description}}</p>
+          <img src="{{img}}" class='hike-image'></img>
         </article>
       </script>
 
