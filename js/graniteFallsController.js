@@ -1,8 +1,9 @@
 (function (module){
-  var granitFallsContoller= {};
+  var graniteFallsController= {};
 
-  granitFallsContoller.index = function(){
-
+  graniteFallsController.index = function(){
+    Trails.fetchAll();
+    $('#granite-mountain').show();
   }
-  module.granitFallsContoller = granitFallsContoller;
+  module.graniteFallsController = graniteFallsController;
 })(window)
