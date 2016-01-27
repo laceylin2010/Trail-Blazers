@@ -2,11 +2,11 @@
   var graniteFallsController= {};
 
   graniteFallsController.index = function(){
-    Trails.fetchAll();
-    $('#trail-template').hide();
     $('.hiking-pic-bar').hide();
-    $('#map').toggle();
+    $('#trail-template').show();
+    $('.inividual-trails').hide();
     $('#granite-mountain').show();
+    $('#map').toggle();
     };
   module.graniteFallsController = graniteFallsController;
 })(window);
