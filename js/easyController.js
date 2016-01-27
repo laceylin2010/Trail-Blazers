@@ -3,8 +3,9 @@
   var easyController = {};
 
   easyController.index = function(){
+    Trails.fetchAll();
     $('.easy-trails').on(function(){
-      $('.individual-trails').hide();
+      $('#trail-template').show();
       $('#map').toggle();
       $('.easy-pictures').show();
     });
