@@ -3,6 +3,6 @@
 
   mtAdamsController.index = function(){
 
-  }
+  };
   module.mtAdamsController = mtAdamsController;
-})(window)
+})(window);

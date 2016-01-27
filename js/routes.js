@@ -1,4 +1,4 @@
-page.base('/');
+page.base('');
 
 page('/', indexController.index);
 page('/easy', easyController.index);
