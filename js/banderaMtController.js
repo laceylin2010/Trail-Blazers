@@ -1,15 +1,15 @@
 (function(module){
 
-  var eagleCreekController = {};
+  var banderaMtController = {};
 
-  eagleCreekController.index = function(){
+  banderaMtController.index = function(){
     $('.hiking-pic-bar').hide();
     $('#trail-template').show();
     $('.individual-trails').hide();
-    $('#eagle-creek').show();
+    $('#bandera-mountain').show();
     $('#map').toggle();
   };
 
 
-  module.eagleCreekController = eagleCreekController;
+  module.banderaMtController = banderaMtController;
 })(window);

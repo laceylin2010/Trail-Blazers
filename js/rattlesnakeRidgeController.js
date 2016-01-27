@@ -6,15 +6,9 @@
     $('.hiking-pic-bar').hide();
     $('#trail-template').show();
     $('.individual-trails').hide();
-    $('#rattlesnake-ridge').show();
+    $('#little-si').show();
     $('#map').toggle();
   };
-
-
-
-
-
-
 
 
   module.rattlesnakeRidgeController = rattlesnakeRidgeController;
