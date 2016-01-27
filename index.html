@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/base.css">
 
       <script id='trail-descriptions' type='text/x-handlebars-template'>
-        <article class='individual-trails'>
+        <article id='{{id}}' class='individual-trails'>
           <h3>{{title}}</h3>
           <p>{{location}}</p>
           <p>Trail Length: {{roundTrip}}</p>
@@ -58,10 +58,11 @@
 
     <p class="easy-pictures hiking-pic-bar">This will be easy pictures</p>
     <p class="moderate-pictures hiking-pic-bar">This will be moderate pictures</p>
-    <p class="difficult-picutres hiking-pic-bar">this will be difficult pictures</p>
-
+    <p class="difficult-pictures hiking-pic-bar">this will be difficult pictures</p>
 
     <div id="map"></div>
+
+  </body>
   <script src="js/map.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBUUeZEAF4QVx47vln7Nf2hcpGqvmnphsM&callback=initMap&libraries=places"  async defer></script>
   <!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB1xJXhun8p_tYgPm6FrhVRMXbtynXzoMs&libraries=places"></script> -->
@@ -71,10 +72,17 @@
   <script src="js/trails.js"></script>
   <script src="js/trailsView.js"></script>
   <script src="js/easyController.js"></script>
+  <script src='js/moderateController.js'></script>
   <script src="js/indexController.js"></script>
   <script src="js/graniteFallsController.js"></script>
   <script src='js/routes.js'></script>
 
   </body>
+  <!-- <script src='js/littleSiController.js'></script>
+  <script src='js/pooPooPointController.js'></script>
+  <script src='js/banderaMountainContoller.js'></script>
+  <script src='js/eagleCreekController.js'></script>
+  <script src='js/wallaceFallsController.js'></script> -->
+
 
   </html>
