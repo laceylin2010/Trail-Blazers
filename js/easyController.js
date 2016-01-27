@@ -3,9 +3,10 @@
   var easyController = {};
 
   easyController.index = function(){
-    $('.easy-trails').on('click', function(){
-      $('.individual-trails').hide();
-      $('#map').hide();
+    Trails.fetchAll();
+    $('.easy-trails').on(function(){
+      $('#trail-template').show();
+      $('#map').toggle();
       $('.easy-pictures').show();
     });
   };
