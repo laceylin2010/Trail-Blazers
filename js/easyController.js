@@ -10,13 +10,5 @@
     $('.easy-pictures').show();
 
   };
-
-
-
-
-
-
-
-
   module.easyController = easyController;
 })(window);

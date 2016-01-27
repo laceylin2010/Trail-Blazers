@@ -1,8 +1,13 @@
-(function (module){
-  var jadeLakeContoller= {};
+(function(module){
 
-  jadeLakeContoller.index = function(){
+  var jadeLakeController = {};
 
+  jadeLakeController.index = function(){
+    $('.hiking-pic-bar').hide();
+    $('#trail-template').show();
+    $('.individual-trails').hide();
+    $('#jade-lake').show();
+    $('#map').toggle();
   };
-  module.jadeLakeContoller = jadeLakeContoller;
+  module.jadeLakeController = jadeLakeController;
 })(window);

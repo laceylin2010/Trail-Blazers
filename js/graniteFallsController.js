@@ -4,9 +4,9 @@
   graniteFallsController.index = function(){
     $('.hiking-pic-bar').hide();
     $('#trail-template').show();
-    $('.inividual-trails').hide();
+    $('.individual-trails').hide();
     $('#granite-mountain').show();
     $('#map').toggle();
-    };
+  };
   module.graniteFallsController = graniteFallsController;
 })(window);
