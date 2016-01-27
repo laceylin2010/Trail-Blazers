@@ -16,7 +16,7 @@ page('/easy', easyController.index);
 // page('/moderate/eagleCreek', eagleCreekController.index);
 // page('/moderate/wallaceFalls', wallaceFallsController.index);
 // page('/difficult/mtBaker', mtBakerController.index);
-// page('/difficult/graniteMt', graniteMtController.index);
+page('/difficult/graniteMt', graniteFallsController.index);
 // page('/difficult/loowitFalls', loowitFallsController.index);
 // page('/difficult/mtAdams', mtAdamsController.index);
 // page('/difficult/jadeLake', jadeLakeController.index);
