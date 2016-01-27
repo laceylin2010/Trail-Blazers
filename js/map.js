@@ -1,25 +1,68 @@
 var hikeLocations = [
     ['ChIJux_5uX9-kFQRXfq9V9dRHew'],
     ['ChIJg3Y2Kwl9kFQROXw23USWrFg']
-
-  // ['Rattlesnake Ridge', 'ChIJux_5uX9-kFQRXfq9V9dRHew'],
-  // ['Pretzel Tree Trail', 47.4808, -122.0554],
-  // ['Lower Coal Creek Trail', 47.5542, -122.166],
-  // ['Wildside Trail', 47.5348, -122.1288],
-  // ['Wenatchee Crest Snowshow', 47.3423, -120.6012],
-  // ['Little Si', 47.4880, -121.7231],
-  // ['Poo Poo Point', 47.5195, -122.0299],
-  // ['Bandera Mountain', 47.4247, -121.5836],
-  // ['Eagle Creek', 45.6400, -121.9208],
-  // ['Wallace Falls', 47.8669, -121.6780],
 ];
 
-function initMap(){
-  var mapView = document.getElementById('map');
-  var map = new google.maps.Map(mapView,{
-    center: {lat: 47.609895, lng:-122.330259},
-    zoom: 6
+function initMap() {
+  var map = new google.maps.Map(document.getElementById('map'), {
+    center: {lat: 47.609895, lng: -122.330259},
+    zoom: 7,
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+  });
 
+  // Create the search box and link it to the UI element.
+  var input = document.getElementById('pac-input');
+  var searchBox = new google.maps.places.SearchBox(input);
+  map.controls[google.maps.ControlPosition.TOP_LEFT].push(input);
+
+  // Bias the SearchBox results towards current map's viewport.
+  map.addListener('bounds_changed', function() {
+    searchBox.setBounds(map.getBounds());
+  });
+
+  var markers = [];
+  // Listen for the event fired when the user selects a prediction and retrieve
+  // more details for that place.
+  searchBox.addListener('places_changed', function() {
+    var places = searchBox.getPlaces();
+
+    if (places.length == 0) {
+      return;
+    }
+
+    // Clear out the old markers.
+    markers.forEach(function(marker) {
+      marker.setMap(null);
+    });
+    markers = [];
+
+    // For each place, get the icon, name and location.
+    var bounds = new google.maps.LatLngBounds();
+    places.forEach(function(place) {
+      var icon = {
+        url: place.icon,
+        size: new google.maps.Size(71, 71),
+        origin: new google.maps.Point(0, 0),
+        anchor: new google.maps.Point(17, 34),
+        scaledSize: new google.maps.Size(25, 25)
+      };
+
+      // Create a marker for each place.
+      markers.push(new google.maps.Marker({
+        map: map,
+        icon: icon,
+        title: place.name,
+        position: place.geometry.location
+      }));
+
+      if (place.geometry.viewport) {
+        // Only geocodes have viewport.
+        bounds.union(place.geometry.viewport);
+      } else {
+        bounds.extend(place.geometry.location);
+      }
+    });
+    map.fitBounds(bounds);
   });
   var infowindow = new google.maps.InfoWindow();
   var service = new google.maps.places.PlacesService(map);
@@ -42,12 +85,4 @@ function initMap(){
       }
     });
   }
-
-  // var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/';
-  // for (var i=0;i<hikeLocations.length;i++){
-  //   var marker = new google.maps.Marker({
-  //     position:new google.maps.LatLng(hikeLocations[i][1],hikeLocations[i][2]),
-  //     map: map
-  //   });
-  // }
 }

@@ -9,7 +9,7 @@
       $('.easy-pictures').hide();
       $('.moderate-pictures').hide();
       $('.difficult-pictures').hide();
-      $('#map').hide();
+      $('#map').show();
     });
   };
   module.indexController = indexController;
