@@ -3,10 +3,10 @@
   var easyController = {};
 
   easyController.index = function(){
-    $('.easy-trails').on('click', function(){
-      $('.moderate-pictures').hide();
-      $('.difficult-pictures').hide();
-      $('#map').hide();
+    Trails.fetchAll();
+    $('#rattlesnake-ridge-link').on('click', function(){
+      $('#rattlesnake-ridge').show();
+      $('#map').toggle();
       $('.easy-pictures').show();
     });
   };
