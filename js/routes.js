@@ -1,6 +1,6 @@
 page.base('/');
 
-// page('/', homeController.index);
+page('/', indexController.index);
 page('/easy', easyController.index);
 // page('/moderate', moderateController.index);
 // page('/difficult', difficultController.index);

@@ -1,6 +1,7 @@
 (function(module){
 
   function Trails(trls) {
+    this.id = trls.id;
     this.title = trls.title;
     this.location = trls.location;
     this.roundTrip = trls.roundTrip;
