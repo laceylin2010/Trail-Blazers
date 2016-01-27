@@ -1,14 +1,14 @@
 (function(module){
 
-  var easyController = {};
+  var rattlesnakeRidgeController = {};
 
-  easyController.index = function(){
+  rattlesnakeRidgeController.index = function(){
     Trails.fetchAll();
-    $('#rattlesnake-ridge-link').on('click', function(){
-      $('#rattlesnake-ridge').show();
-      $('#map').toggle();
-      $('.easy-pictures').show();
-    });
+    // $('#rattlesnake-ridge-link').on('click', function(){
+    //   $('#rattlesnake-ridge').show();
+    //   $('#map').toggle();
+    //   $('.easy-pictures').show();
+    // });
   };
 
 
@@ -18,5 +18,5 @@
 
 
 
-  module.easyController = easyController;
+  module.rattlesnakeRidgeController = rattlesnakeRidgeController;
 })(window);
