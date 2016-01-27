@@ -4,6 +4,7 @@
     $(document).ready(function(){
       console.log('hello ');
       Trails.fetchAll();
+      $('#trail-template').hide();
       $('.individual-trails').hide();
       $('.easy-pictures').hide();
       $('.moderate-pictures').hide();
