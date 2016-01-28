@@ -8,6 +8,8 @@
     $('.individual-trails').hide();
     $('#coal-creek').show();
     $('#map').show();
+    $('.home-title').hide();
+    $('.home-background' ).removeClass().addClass('page-background');
   };
 
 

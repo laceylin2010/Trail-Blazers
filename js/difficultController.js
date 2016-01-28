@@ -6,7 +6,9 @@
     $('.moderate-pictures').hide();
     $('.easy-pictures').hide();
     $('#map').hide();
+    $('.home-title').hide();
     $('.difficult-pictures').show();
+    $('.home-background' ).removeClass().addClass('page-background');
 
   };
   module.difficultController = difficultController;

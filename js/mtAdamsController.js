@@ -8,6 +8,8 @@
     $('.individual-trails').hide();
     $('#mt-adams-standard-summit').show();
     $('#map').show();
+    $('.home-title').hide();
+    $('.home-background' ).removeClass().addClass('page-background');
   };
   module.mtAdamsController = mtAdamsController;
 })(window);

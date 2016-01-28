@@ -24,3 +24,29 @@
 .hike-image{
   width: 80%;
 }
+/*NOAHS HOME PAGE CHANGES*/
+.home-background{
+  background-image: url("/../imgs/home-background.jpg");
+  min-height: 2200px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.page-background{
+  background-color: #E6F2D5;
+  min-height: 2200px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.home-title{
+  margin-top: 2%;
+  margin-bottom: 0;
+  color: white;
+  text-align: center;
+  font-size: 70px;
+}

@@ -8,6 +8,8 @@
     $('.individual-trails').hide();
     $('#bandera-mountain').show();
     $('#map').show();
+    $('.home-title').hide();
+    $('.home-background' ).removeClass().addClass('page-background');
   };
 
 
