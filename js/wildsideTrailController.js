@@ -8,6 +8,8 @@
     $('.individual-trails').hide();
     $('#wildside-trail').show();
     $('#map').show();
+    $('.home-title').hide();
+    $('.home-background' ).removeClass().addClass('page-background');
   };
 
 

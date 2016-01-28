@@ -8,6 +8,8 @@
     $('.individual-trails').hide();
     $('#rattlesnake-ridge').show();
     $('#map').show();
+    $('.home-title').hide();
+    $('.home-background' ).removeClass().addClass('page-background');
   };
 
 

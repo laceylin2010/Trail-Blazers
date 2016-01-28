@@ -8,6 +8,8 @@
     $('.individual-trails').hide();
     $('#loowit-falls').show();
     $('#map').show();
+    $('.home-title').hide();
+    $('.home-background' ).removeClass().addClass('page-background');
   };
   module.loowitFallsController = loowitFallsController;
 })(window);

@@ -8,6 +8,8 @@
     $('.individual-trails').hide();
     $('#jade-lake').show();
     $('#map').show();
+    $('.home-title').hide();
+    $('.home-background' ).removeClass().addClass('page-background');
   };
   module.jadeLakeController = jadeLakeController;
 })(window);

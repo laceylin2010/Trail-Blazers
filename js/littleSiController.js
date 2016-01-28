@@ -8,6 +8,8 @@
     $('.individual-trails').hide();
     $('#little-si').show();
     $('#map').show();
+    $('.home-title').hide();
+    $('.home-background' ).removeClass().addClass('page-background');
   };
 
 

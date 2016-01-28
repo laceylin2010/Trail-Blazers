@@ -9,7 +9,11 @@
       $('.easy-pictures').hide();
       $('.moderate-pictures').hide();
       $('.difficult-pictures').hide();
-      $('#map').show();
+      $('#map').hide();
+      $('.home-title').show();
+      $('.page-background' ).removeClass().addClass('home-background');
+
+
     });
   };
   module.indexController = indexController;
