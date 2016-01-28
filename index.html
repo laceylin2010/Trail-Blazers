@@ -7,7 +7,6 @@
     <!-- <link rel="stylesheet" href="vendors/normalize.css">
     <link rel="stylesheet" href="vendors/skeleton.css"> -->
     <link rel="stylesheet" href="css/module.css">
-    <link rel="stylesheet" href="css/map.css">
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/trails.css">
@@ -20,12 +19,15 @@
           <p>Trail Length: {{roundTrip}}</p>
           <p class="{{difficulty}}">Difficulty: {{difficulty}}</p>
           <p>{{description}}</p>
-          <!-- <img src="{{img}}" class='hike-image'></img> -->
+          <img src="{{img}}" class='hike-image'></img>
         </section>
         </article>
       </script>
   </head>
   <body>
+    <!-- <header>
+      <img src='imgs/navbar.jpg' class='header-image'>
+    </header> -->
     <nav class="navbar">
       <img class="icon-menu" id="hamburger" src="/imgs/hamburger.png" alt="view icon">
       <ul class='main-tabs'>
@@ -63,6 +65,7 @@
     </nav>
 
     <div id="trail-template"></div>
+    <div class='clear'></div>
 
     <a href="/difficult/mtBaker"><img src="imgs/image1.jpg" class="easy-pictures hiking-pic-bar"></img></a>
     <img src="imgs/image2.jpg" class="easy-pictures hiking-pic-bar"></img>
@@ -74,7 +77,7 @@
     <div id="map"></div>
 
   </body>
-  <script src="js/map.js"></script>
+<script src="js/map.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBUUeZEAF4QVx47vln7Nf2hcpGqvmnphsM&callback=initMap&libraries=places"  async defer></script>
   <!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB1xJXhun8p_tYgPm6FrhVRMXbtynXzoMs&libraries=places"></script> -->
   <script src="vendors/handlebars.js"></script>

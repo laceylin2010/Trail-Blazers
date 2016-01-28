@@ -1,15 +1,24 @@
 #trail-template{
   display:none;
-  /*float:left;*/
+  float:left;
   /*width:50%;*/
   outline:solid black;
-
+  margin-top: 2em;
+  /*margin-right: 4em;*/
+  margin-left:2em;
 }
+
+.clear{
+  /*clear:both;*/
+}
+
 #map{
+  width: 50%;
+  margin-top: 2em;
   display:none;
-  width: 40%;
-  margin-left: 30%;
-  margin-right: 30%;
+  float: right;
+  width: 500px;
+  height: 400px;
 }
 
 .hike-image{
