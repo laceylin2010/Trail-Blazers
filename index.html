@@ -24,11 +24,10 @@
         </article>
       </script>
   </head>
-  <body>
+  <body id="home-background-area" class="home-background">
     <!-- <header>
       <img src='imgs/navbar.jpg' class='header-image'>
     </header> -->
-  <div  id="home-background-area" class="home-background">
     <nav class="navbar">
       <img class="icon-menu" id="hamburger" src="/imgs/hamburger.png" alt="view icon">
       <ul class='main-tabs'>
@@ -65,6 +64,9 @@
       </ul>
     </nav>
     <h1 class='home-title'>Trail Blazers</h1>
+    <h1 class='easy-title'>Easy Trails</h1>
+    <h1 class='moderate-title'>Moderate Trails</h1>
+    <h1 class='difficult-title'>Diffiult Trails</h1>
     <div id="trail-template"></div>
     <div class='clear'></div>
   <section class="menu">
@@ -90,9 +92,8 @@
   </section>
 
 
-    <input id="pac-input" class="controls" type="text" placeholder="Search Box">
-    <div id="map"></div>
-    <div>
+  <input id="pac-input" class="controls" type="text" placeholder="Search Box">
+  <div id="map" class="trail-map"></div>
   </body>
 <script src="js/map.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBUUeZEAF4QVx47vln7Nf2hcpGqvmnphsM&callback=initMap&libraries=places"  async defer></script>
