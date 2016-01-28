@@ -1,6 +1,21 @@
 var hikeLocations = [
     ['ChIJux_5uX9-kFQRXfq9V9dRHew'],
-    ['ChIJg3Y2Kwl9kFQROXw23USWrFg']
+    ['ChIJg3Y2Kwl9kFQROXw23USWrFg'],
+    ['ChIJzZIh6chlkFQRLymmtgO_vvs'],
+    ['ChIJBXxQvChpkFQRXhgEP3VwNAs'],
+    ['ChIJ2ZiobrhokFQRSNdjuDiDL80'],
+    ['ChIJE8C370I6mlQR0xlEMt5rMX4'],
+    ['ChIJ52Dlp7FlkFQRBqLZdyZKY_8'],
+    ['ChIJYU7JzRqCkFQRClmdSyAwrXo'],
+    ['ChIJP0C9_LOnlVQRTNytXAfffX4'],
+    ['ChIJcSyAW0m8mlQRaEMFJPYD10I'],
+    ['ChIJwfFbyzv5hFQREar8lD92eUI'],
+    ['ChIJ5XwsYep4mlQRvwrnu'],
+    [' ChIJ2ZvyIuLllVQRegkC-kO-5ZU'],
+    ['ChIJoQagVdb5llQR1TH4jACyxdE'],
+    ['ChIJNbOX0WpgmlQRDSgN7D62UpY']
+
+
 ];
 
 function initMap() {
