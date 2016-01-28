@@ -7,6 +7,9 @@
     $('.easy-pictures').hide();
     $('#map').hide();
     $('.home-title').hide();
+    $('.easy-title').hide();
+    $('.moderate-title').hide();
+    $('.difficult-title').show();
     $('.difficult-pictures').show();
     $('.home-background' ).removeClass().addClass('page-background');
 

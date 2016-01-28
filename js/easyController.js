@@ -9,6 +9,9 @@
     $('#map').hide();
     $('.easy-pictures').show();
     $('.home-title').hide();
+    $('.easy-title').show();
+    $('.moderate-title').hide();
+    $('.difficult-title').hide();
     $('.home-background' ).removeClass().addClass('page-background');
   };
   module.easyController = easyController;
