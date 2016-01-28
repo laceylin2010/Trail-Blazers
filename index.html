@@ -4,6 +4,9 @@
     <meta charset="utf-8">
     <title>Trail Blazers</title>
     <link href='https://fonts.googleapis.com/css?family=Gentium+Book+Basic' rel='stylesheet' type='text/css'>
+    <!-- <link rel="stylesheet" href="vendors/normalize.css">
+    <link rel="stylesheet" href="vendors/skeleton.css"> -->
+    <link rel="stylesheet" href="css/module.css">
     <link rel="stylesheet" href="css/map.css">
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/base.css">
@@ -13,18 +16,18 @@
         <article id='{{id}}' class='individual-trails'>
         <section class='trail-information'>
           <h3>{{title}}</h3>
-          <img src="{{img}}" class='hike-image'></img>
           <p>{{location}}</p>
           <p>Trail Length: {{roundTrip}}</p>
           <p class="{{difficulty}}">Difficulty: {{difficulty}}</p>
           <p>{{description}}</p>
+          <!-- <img src="{{img}}" class='hike-image'></img> -->
         </section>
         </article>
       </script>
-
   </head>
   <body>
-    <nav>
+    <nav class="navbar">
+      <img class="icon-menu" id="hamburger" src="/imgs/hamburger.png" alt="view icon">
       <ul class='main-tabs'>
         <li><a id='home' href="/">Home</a>
         </li>
