@@ -1,0 +1,41 @@
+@media only screen and (min-width: 640px){
+ #trail-template{
+  width:50% ;
+  }
+  #hamburger {
+  display:none;
+}
+.main-tabs{
+  display: inline-flex !important;
+}
+ul.main-tabs .sub-tabs{
+  display: none;
+  position: absolute;
+}
+
+ul.main-tabs li:hover .sub-tabs{
+  display: block !important;
+  background-color: #A1EF8C;
+}
+
+ul{
+  list-style: none;
+}
+.main-tabs a{
+  text-decoration: none;
+  color: black;
+  padding-left: 4em;
+  padding-right: 4em;
+}
+}
+@media only screen and (max-width: 640px){
+ #trail-template{
+  width:100% ;
+  }
+  #map{
+    width: 20%;
+  }
+  .navbar ul{
+    display:none;
+  }
+}

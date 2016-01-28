@@ -8,26 +8,8 @@ nav{
   padding: 20px;
   position: relative;
 }
-
-.main-tabs{
-  display: inline-flex;
-}
-ul.main-tabs .sub-tabs{
-  display: none;
-  position: absolute;
-}
-
-ul.main-tabs li:hover .sub-tabs{
-  display: block;
-  background-color: #A1EF8C;
-}
-
-ul{
-  list-style: none;
-}
-.main-tabs a{
-  text-decoration: none;
-  color: black;
-  padding-left: 4em;
-  padding-right: 4em;
+#hamburger {
+  width: 3em;
+  height: 3em;
+  float:right;
 }
