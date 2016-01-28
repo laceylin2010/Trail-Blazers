@@ -11,12 +11,14 @@
 
       <script id='trail-descriptions' type='text/x-handlebars-template'>
         <article id='{{id}}' class='individual-trails'>
+        <section class='trail-information'>
           <h3>{{title}}</h3>
+          <img src="{{img}}" class='hike-image'></img>
           <p>{{location}}</p>
           <p>Trail Length: {{roundTrip}}</p>
           <p class="{{difficulty}}">Difficulty: {{difficulty}}</p>
           <p>{{description}}</p>
-          <img src="{{img}}" class='hike-image'></img>
+        </section>
         </article>
       </script>
 
@@ -59,7 +61,9 @@
 
     <div id="trail-template"></div>
 
-    <p class="easy-pictures hiking-pic-bar">This will be easy pictures</p>
+    <a href="/difficult/mtBaker"><img src="imgs/image1.jpg" class="easy-pictures hiking-pic-bar"></img></a>
+    <img src="imgs/image2.jpg" class="easy-pictures hiking-pic-bar"></img>
+    <img src="imgs/image3.jpg" class="easy-pictures hiking-pic-bar"></img>
     <p class="moderate-pictures hiking-pic-bar">This will be moderate pictures</p>
     <p class="difficult-pictures hiking-pic-bar">this will be difficult pictures</p>
 

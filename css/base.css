@@ -25,7 +25,7 @@ ul.main-tabs li:hover .sub-tabs{
 ul{
   list-style: none;
 }
-a{
+.main-tabs a{
   text-decoration: none;
   color: black;
   padding-left: 4em;
