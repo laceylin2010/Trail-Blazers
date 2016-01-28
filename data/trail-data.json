@@ -123,7 +123,7 @@
   "roundTrip": "25 miles",
   "difficulty": "Difficult",
   "description": "This is a challenging climb up a 12,000 foot volcano in southern Washington. You'll climb close to 7,000 feet for this ski descent. When you get up to the base of the glacier it will look like a highway of climbers in spring and summer months. Hope for good snow as the descent is fantastic. Beware - there is a false summit so be prepared to be disappointed as you crest what you think is the top, only to have to hike another half mile or so. When you ski down get some speed from the true top and you might be able to make it partly up the false summit.",
-  "img":"../mt-adams.jpg"
+  "img":"../imgs/mt-adams.jpg"
 },
 {
   "id": "jade-lake",
@@ -131,6 +131,6 @@
   "location": "Salmon-La-Sac/Tenaway",
   "roundTrip": "21 miles",
   "difficulty": "Difficult",
-  "img":"../imgs/jade-lake"
+  "img":"../imgs/jade-lake.jpg"
 }
 ]
