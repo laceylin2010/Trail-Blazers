@@ -13,7 +13,7 @@
     $('.difficult-pic-list').hide();
     $('form').hide();
     $('.movie').hide();
-    $('.form-title')/hide();
+    $('.form-title').hide();
     $('#trail-template').show();
     $('#granite-mountain').show();
     $('#map').show();

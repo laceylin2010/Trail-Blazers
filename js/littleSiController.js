@@ -13,7 +13,7 @@
     $('.moderate-pic-list').hide();
     $('.difficult-pic-list').hide();
     $('.movie').hide();
-    $('.form-title')/hide();
+    $('.form-title').hide();
     $('#trail-template').show();
     $('#little-si').show();
     $('#map').show();

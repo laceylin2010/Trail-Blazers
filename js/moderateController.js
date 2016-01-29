@@ -14,7 +14,7 @@
       $('.easy-pictures').hide();
       $('.difficult-pictures').hide();
       $('.movie').hide();
-      $('.form-title')/hide();
+      $('.form-title').hide();
       $('.moderate-pictures').fadeIn('slow');
       $('.home-title').hide();
       $('.easy-title').hide();
