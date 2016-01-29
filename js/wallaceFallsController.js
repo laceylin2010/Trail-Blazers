@@ -1,19 +1,26 @@
 (function(module){
 
   var wallaceFallsController = {};
-
-  wallaceFallsController.index = function(){
+  var mtView = function(){
     $('.hiking-pic-bar').hide();
-    $('#trail-template').show();
     $('.individual-trails').hide();
-    $('#wallace-falls').show();
-    $('#map').show();
     $('.home-title').hide();
     $('.easy-title').hide();
     $('.moderate-title').hide();
     $('.difficult-title').hide();
+    $('#trail-template').show();
+    $('#wallace-falls').show();
+    $('#map').show();
     $('.home-background' ).removeClass().addClass('page-background');
     $('#map' ).removeClass().addClass('trail-map');
+  };
+
+  wallaceFallsController.index = function(){
+    if(Trails.all.length == 0){
+      Trails.fetchAll(mtView);
+    }else{
+      mtView();
+    }
   };
 
 

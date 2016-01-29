@@ -1,26 +1,27 @@
 (function(module){
 
   var wildsideTrailController = {};
-
-  wildsideTrailController.index = function(){
+  var mtView = function(){
     $('.hiking-pic-bar').hide();
-    $('#trail-template').show();
     $('.individual-trails').hide();
-    $('#wildside-trail').show();
-    $('#map').show();
     $('.home-title').hide();
     $('.easy-title').hide();
     $('.moderate-title').hide();
     $('.difficult-title').hide();
+    $('#trail-template').show();
+    $('#wildside-trail').show();
+    $('#map').show();
     $('.home-background' ).removeClass().addClass('page-background');
     $('#map' ).removeClass().addClass('trail-map');
   };
 
-
-
-
-
-
+  wildsideTrailController.index = function(){
+    if(Trails.all.length == 0){
+      Trails.fetchAll(mtView);
+    }else{
+      mtView();
+    }
+  };
 
 
   module.wildsideTrailController = wildsideTrailController;

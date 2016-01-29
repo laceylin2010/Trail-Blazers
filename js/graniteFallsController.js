@@ -1,18 +1,28 @@
-(function (module){
-  var graniteFallsController= {};
+(function(module){
 
-  graniteFallsController.index = function(){
-    $('#trail-template').show();
-    $('#granite-mountain').show();
+  var graniteFallsController = {};
+  var mtView = function(){
     $('.hiking-pic-bar').hide();
     $('.individual-trails').hide();
-    $('#map').show();
     $('.home-title').hide();
     $('.easy-title').hide();
     $('.moderate-title').hide();
     $('.difficult-title').hide();
+    $('#trail-template').show();
+    $('#granite-mountain').show();
+    $('#map').show();
     $('.home-background' ).removeClass().addClass('page-background');
     $('#map' ).removeClass().addClass('trail-map');
   };
+
+  graniteFallsController.index = function(){
+    if(Trails.all.length == 0){
+      Trails.fetchAll(mtView);
+    }else{
+      mtView();
+    }
+  };
+
+
   module.graniteFallsController = graniteFallsController;
 })(window);

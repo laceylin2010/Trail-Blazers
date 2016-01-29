@@ -1,26 +1,27 @@
 (function(module){
 
   var pretzelTreeController = {};
-
-  pretzelTreeController.index = function(){
+  var mtView = function(){
     $('.hiking-pic-bar').hide();
-    $('#trail-template').show();
     $('.individual-trails').hide();
-    $('#pretzel-tree').show();
     $('.home-title').hide();
-    $('#map').show();
     $('.easy-title').hide();
     $('.moderate-title').hide();
     $('.difficult-title').hide();
+    $('#trail-template').show();
+    $('#pretzel-tree').show();
+    $('#map').show();
     $('.home-background' ).removeClass().addClass('page-background');
     $('#map' ).removeClass().addClass('trail-map');
   };
 
-
-
-
-
-
+  pretzelTreeController.index = function(){
+    if(Trails.all.length == 0){
+      Trails.fetchAll(mtView);
+    }else{
+      mtView();
+    }
+  };
 
 
   module.pretzelTreeController = pretzelTreeController;
