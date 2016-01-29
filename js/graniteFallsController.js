@@ -2,10 +2,10 @@
   var graniteFallsController= {};
 
   graniteFallsController.index = function(){
-    $('.hiking-pic-bar').hide();
     $('#trail-template').show();
-    $('.individual-trails').hide();
     $('#granite-mountain').show();
+    $('.hiking-pic-bar').hide();
+    $('.individual-trails').hide();
     $('#map').show();
     $('.home-title').hide();
     $('.easy-title').hide();

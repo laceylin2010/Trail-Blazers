@@ -1,4 +1,6 @@
-(function(module){
+(
+
+function(module){
   var indexController= {};
   indexController.index = function(){
     $(document).ready(function(){

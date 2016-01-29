@@ -1,6 +1,7 @@
 .hiking-pic-bar{
   width: 19%;
   height: 45%;
+<<<<<<< HEAD
 }
 .easy-pictures{
   position: relative;
@@ -9,6 +10,10 @@
   position: absolute;
   top: px;
   left: 0;
+=======
+  border-radius: 2.5em;
+
+>>>>>>> master
 }
 .menu{
   margin-left:5%;
@@ -16,4 +21,13 @@
   text-align: center;
   margin-top: 2em;
 
+}
+
+h3{
+    background-color: #000;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    /*opacity: 0.08;*/
+}
 }
