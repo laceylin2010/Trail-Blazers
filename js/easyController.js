@@ -12,6 +12,7 @@
     $('form').hide();
     $('#map').hide();
     $('.movie').hide();
+    $('.form-title').hide();
     $('.easy-pictures').fadeIn('slow');
     $('.home-title').hide();
     $('.easy-title').fadeIn('slow');

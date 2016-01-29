@@ -10,6 +10,7 @@
     $('.difficult-title').hide();
       $('form').hide();
     $('.easy-pic-list').hide();
+    $('.form-title').hide();
     $('.moderate-pic-list').hide();
     $('.difficult-pic-list').hide();
     $('.movie').hide();

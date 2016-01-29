@@ -13,6 +13,7 @@
     $('.moderate-pic-list').hide();
     $('.difficult-pic-list').hide();
     $('.movie').hide();
+    $('.form-title').hide();
     $('#trail-template').show();
     $('#mt-adams-standard-summit').show();
     $('#map').show();
