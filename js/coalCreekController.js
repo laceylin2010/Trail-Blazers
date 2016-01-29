@@ -11,6 +11,7 @@
     $('.difficult-pic-list').hide();
     $('.moderate-title').hide();
     $('.difficult-title').hide();
+    $('.movie').hide();
     $('#trail-template').show();
     $('#coal-creek').show();
     $('#map').show();

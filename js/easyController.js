@@ -10,6 +10,7 @@
     $('.moderate-pic-list').hide();
     $('.difficult-pic-list').hide();
     $('#map').hide();
+    $('.movie').hide();
     $('.easy-pictures').fadeIn('slow');
     $('.home-title').hide();
     $('.easy-title').fadeIn('slow');
