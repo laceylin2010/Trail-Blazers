@@ -6,6 +6,9 @@ Trails.initIndexPage = function(){
     $('#trail-template').append(template(a));
   });
 };
+
+
+
 $('#hamburger').on('click', function(){
   $('.navbar ul').slideToggle();
 });
