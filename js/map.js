@@ -94,7 +94,7 @@ function initMap() {
         });
         google.maps.event.addListener(marker, 'click', function() {
           infowindow.setContent('<div><strong>' + place.name + '</strong><br>' +
-          place.formatted_address + '</div>' + '<div><strong>' + place.vicinity + '</strong><br>');
+          place.formatted_address + '</div>');
           infowindow.open(map, this);
         });
       }
