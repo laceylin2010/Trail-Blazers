@@ -6,6 +6,9 @@
     $('.individual-trails').hide();
     $('.moderate-pictures').hide();
     $('.difficult-pictures').hide();
+    $('.easy-pic-list').show();
+    $('.moderate-pic-list').hide();
+    $('.difficult-pic-list').hide();
     $('#map').hide();
     $('.easy-pictures').fadeIn('slow');
     $('.home-title').hide();

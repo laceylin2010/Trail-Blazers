@@ -11,6 +11,9 @@ function(module){
       $('.easy-pictures').hide();
       $('.moderate-pictures').hide();
       $('.difficult-pictures').hide();
+      $('.easy-pic-list').hide();
+      $('.moderate-pic-list').hide();
+      $('.difficult-pic-list').hide();
       $('#map').show();
       $('.home-title').fadeIn('slow');
       $('.easy-title').hide();

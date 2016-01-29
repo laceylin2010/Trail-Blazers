@@ -3,13 +3,36 @@
     display:none;
     float:left;
     /*width:50%;*/
-    
+
     margin-top: 5%;
     /*margin-right: 4em;*/
     margin-left:1%;
   }
   #hamburger {
   display:none;
+}
+.easy-pictures{
+  width:20%;
+}
+.menu{
+  width: 100%;
+  /*margin-left:5%;
+  margin-right:5%;*/
+  margin-top: 5%;
+  text-align: center;
+}
+
+.menu li {
+  position:relative;
+  width: 20%;
+  float: left;
+}
+.easy-picture-layout,
+.moderate-picture-layout,
+.difficult-picture-layout{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .main-tabs{
   display: inline-flex !important;
@@ -70,6 +93,8 @@ ul{
 }
 
 .navbar {
+  position: fixed;
+  top: 0;
   display: inline-block;
   width: 100%;
   height:auto;
