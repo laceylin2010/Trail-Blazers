@@ -15,6 +15,7 @@ function(module){
       $('.moderate-pic-list').hide();
       $('.difficult-pic-list').hide();
       $('#map').show();
+      $('.movie').show();
       $('.home-title').fadeIn('slow');
       $('.easy-title').hide();
       $('.moderate-title').hide();
