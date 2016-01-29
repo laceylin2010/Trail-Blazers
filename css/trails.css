@@ -45,7 +45,17 @@ li span{
 }
 
 .movie{
+  float: none;
   display:block;
-  margin-left:23em;
-  margin-top:2em;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 5%;
+}
+.video{
+  float: none;
+  display:block;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+
 }
