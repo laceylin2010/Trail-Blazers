@@ -14,7 +14,7 @@
     $('.home-background' ).removeClass().addClass('page-background');
     $('#map' ).removeClass().addClass('trail-map');
   };
-  
+
   banderaMtController.index = function(){
     if(Trails.all.length == 0){
       Trails.fetchAll(mtView);

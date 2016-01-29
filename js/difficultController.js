@@ -9,8 +9,8 @@
     $('.home-title').hide();
     $('.easy-title').hide();
     $('.moderate-title').hide();
-    $('.difficult-title').show();
-    $('.difficult-pictures').show();
+    $('.difficult-title').fadeIn('slow');
+    $('.difficult-pictures').fadeIn('slow');
     $('.home-background' ).removeClass().addClass('page-background');
 
   };
