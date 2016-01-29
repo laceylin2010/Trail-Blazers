@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="/css/layout.css">
     <link rel="stylesheet" href="/css/base.css">
     <link rel="stylesheet" href="/css/trails.css">
+    <link rel="stylesheet" href="/css/reset.css">
 
       <script id='trail-descriptions' type='text/x-handlebars-template'>
         <article id='{{id}}' class='individual-trails'>
@@ -31,46 +32,54 @@
     <nav class="navbar">
       <img class="icon-menu" id="hamburger" src="/imgs/hamburger.png" alt="view icon">
       <ul class='main-tabs'>
-        <li><a id='home' href="/">Home</a>
+        <li class="nav-of-5"><a id='home' class="nav-link-of-5" href="/">Home</a>
         </li>
-        <li><a href="/easy" class='easy-trails'>Easy Trails</a>
+        <li class="nav-of-5"><a href="/easy" class="nav-link-of-5" 'easy-trails'>Easy Trails</a>
           <ul class="sub-tabs">
-            <li><a href="/easy/rattlesnakeRidge">Rattlesnake Ridge</a></li>
-            <li><a href="/easy/pretzelTree">Pretzel Tree</a></li>
-            <li><a href="/easy/coalCreek">Coal Creek</a></li>
-            <li><a href="/easy/wildsideTrail">Wildside Trail</a></li>
-            <li><a href="/easy/wenatcheeCrest">Wenatchee Crest</a></li>
+            <li a class="sub-tab-link"><a class="sub-tab-link" href="/easy/rattlesnakeRidge">Rattlesnake Ridge</a></li>
+            <li a class="sub-tab-link"><a class="sub-tab-link" href="/easy/pretzelTree">Pretzel Tree</a></li>
+            <li a class="sub-tab-link"><a class="sub-tab-link" href="/easy/coalCreek">Coal Creek</a></li>
+            <li a class="sub-tab-link"><a class="sub-tab-link" href="/easy/wildsideTrail">Wildside Trail</a></li>
+            <li a class="sub-tab-link"><a class="sub-tab-link" href="/easy/wenatcheeCrest">Wenatchee Crest</a></li>
           </ul>
         </li>
-        <li><a href="/moderate" class='moderate-trails'>Moderate Trails</a>
+        <li class="nav-of-5"><a href="/moderate" class="nav-link-of-5" 'moderate-trails'>Moderate Trails</a>
           <ul class="sub-tabs">
-            <li><a href="/moderate/littleSi">Little Si</a></li>
-            <li><a href="/moderate/pooPooPoint">Poo Poo Point</a></li>
-            <li><a href="/moderate/banderaMt">Bandera Mountain</a></li>
-            <li><a href="/moderate/eagleCreek">Eagle Creek</a></li>
-            <li><a href="/moderate/wallaceFalls">Wallace Falls</a></li>
+            <li a class="sub-tab-link"><a class="sub-tab-link" href="/moderate/littleSi">Little Si</a></li>
+            <li a class="sub-tab-link"><a class="sub-tab-link" href="/moderate/pooPooPoint">Poo Poo Point</a></li>
+            <li a class="sub-tab-link"><a class="sub-tab-link" href="/moderate/banderaMt">Bandera Mountain</a></li>
+            <li a class="sub-tab-link"><a class="sub-tab-link" href="/moderate/eagleCreek">Eagle Creek</a></li>
+            <li a class="sub-tab-link"><a class="sub-tab-link" href="/moderate/wallaceFalls">Wallace Falls</a></li>
           </ul>
         </li>
-        <li><a href="/difficult" class='difficulty-trails'>Difficult Trails</a>
+        <li class="nav-of-5"><a href="/difficult" class="nav-link-of-5" 'difficulty-trails'>Difficult Trails</a>
           <ul class="sub-tabs">
-            <li><a href="/difficult/mtBaker">Mt. Baker</a></li>
-            <li><a href="/difficult/graniteMt">Granite Mountaint</a></li>
-            <li><a href="/difficult/loowitFalls">Loowit Falls</a></li>
-            <li><a href="/difficult/mtAdams">Mt Adams Standard Summit</a></li>
-            <li><a href="/difficult/jadeLake">Jade Lake</a></li>
+            <li a class="sub-tab-link"><a class="sub-tab-link" href="/difficult/mtBaker">Mt. Baker</a></li>
+            <li a class="sub-tab-link"><a class="sub-tab-link" href="/difficult/graniteMt">Granite Mountaint</a></li>
+            <li a class="sub-tab-link"><a class="sub-tab-link" href="/difficult/loowitFalls">Loowit Falls</a></li>
+            <li a class="sub-tab-link"><a class="sub-tab-link" href="/difficult/mtAdams">Mt Adams Standard Summit</a></li>
+            <li a class="sub-tab-link"><a class="sub-tab-link" href="/difficult/jadeLake">Jade Lake</a></li>
           </ul>
         </li>
-        <li><a href="/aboutUs" class='about-tab'>About Us</a></li>
+        <li class="nav-of-5"><a href="/aboutUs" class="nav-link-of-5" 'about-tab'>About Us</a></li>
       </ul>
     </nav>
     <h1 class='home-title'>Trail Blazers</h1>
     <h1 class='easy-title'>Easy Trails</h1>
     <h1 class='moderate-title'>Moderate Trails</h1>
     <h1 class='difficult-title'>Diffiult Trails</h1>
+
     <div id="trail-template"></div>
     <div class='clear'></div>
   <section class="menu">
     <a href="/easy/rattlesnakeRidge"><img src="imgs/easy1.jpg" class="easy-pictures hiking-pic-bar"></img></a>
+
+
+
+
+
+
+
     <a href="/easy/pretzelTree"><img src="imgs/easy2.jpg" class="easy-pictures hiking-pic-bar"></img></a>
     <a href="/easy/coalCreek"><img src="imgs/easy3.jpg" class="easy-pictures hiking-pic-bar"></img></a>
     <a href="/easy/wildsideTrail"><img src="imgs/easy4.jpg" class="easy-pictures hiking-pic-bar"></img></a>
