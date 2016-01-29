@@ -42,7 +42,7 @@
   "roundTrip": "6.0 miles",
   "difficulty": "Easy",
   "description": "The Wenatchee Crest near Blewett Pass is an ideal entry-level snowshoe, thanks to its modest elevation gain and panoramic views from the ridgetop. And even with such an easily accessible trailhead, the crowds are often minimal.",
-  "img":"../imgs/wenatchee.jpg"
+  "img":"../imgs/wenatchee.JPG"
   },
   {
   "id": "little-si",
@@ -96,7 +96,7 @@
   "roundTrip": "24.2 miles",
   "difficulty": "Difficult",
   "description": "This is a beautiful climb up one of the most glaciated peaks in the lower 48. In the summer you will see beautiful wildflowers. You will camp high up on the Coleman Glacier and make a summit bid early the next morning before the sun comes up. We found the best place to camp was high on the Coleman Glacier underneath a rocky ridge to climbers right. Beware of crevasses on this entire hike.",
-  "img":"../imgs/mt-baker.jpg"
+  "img":"../imgs/mt-baker.JPG"
 },
 {
   "id": "granite-mountain",

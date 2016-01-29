@@ -17,6 +17,7 @@
     $('.moderate-title').hide();
     $('.difficult-title').hide();
     $('form').show();
+    $('.form-title').show();
     $('.home-background' ).removeClass().addClass('page-background');
   };
 
