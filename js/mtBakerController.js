@@ -1,19 +1,28 @@
 (function(module){
 
   var mtBakerController = {};
-
-  mtBakerController.index = function(){
+  var mtView = function(){
     $('.hiking-pic-bar').hide();
-    $('#trail-template').show();
     $('.individual-trails').hide();
-    $('#mt-baker-standard-summit-route').show();
-    $('#map').show();
     $('.home-title').hide();
     $('.easy-title').hide();
     $('.moderate-title').hide();
     $('.difficult-title').hide();
+    $('#trail-template').show();
+    $('#mt-baker-standard-summit-route').show();
+    $('#map').show();
     $('.home-background' ).removeClass().addClass('page-background');
     $('#map' ).removeClass().addClass('trail-map');
   };
+
+  mtBakerController.index = function(){
+    if(Trails.all.length == 0){
+      Trails.fetchAll(mtView);
+    }else{
+      mtView();
+    }
+  };
+
+
   module.mtBakerController = mtBakerController;
 })(window);
