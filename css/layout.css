@@ -13,7 +13,7 @@
 }
 .menu{
   width: 100%;
-  
+
 }
 #map{
   /*margin-top: 2em;*/
@@ -54,7 +54,7 @@
   float: none;
   width: 500px;
   height: 400px;
-  margin-top: 45%;
+  /*margin-top: 45%;*/
   margin-left: auto;
   margin-right: auto;
 }

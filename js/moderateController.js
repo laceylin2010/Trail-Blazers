@@ -12,6 +12,7 @@
       $('.difficult-pic-list').hide();
       $('.easy-pictures').hide();
       $('.difficult-pictures').hide();
+      $('.movie').hide();
       $('.moderate-pictures').fadeIn('slow');
       $('.home-title').hide();
       $('.easy-title').hide();

@@ -11,6 +11,7 @@
     $('.easy-pic-list').hide();
     $('.moderate-pic-list').hide();
     $('.difficult-pic-list').hide();
+    $('.movie').hide();
     $('#trail-template').show();
     $('#poo-poo-point').show();
     $('#map').show();

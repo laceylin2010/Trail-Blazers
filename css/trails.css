@@ -42,3 +42,10 @@ li span{
   bottom: calc(30% - 6px);
   color:white;
   font-size: xx-large;
+}
+
+.movie{
+  display:block;
+  margin-left:23em;
+  margin-top:2em;
+}
