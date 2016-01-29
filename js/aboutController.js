@@ -3,17 +3,21 @@
   var aboutController = {};
 
   aboutController.index = function(){
-    $('.hiking-pic-bar').hide();
-    $('#trail-template').show();
     $('.individual-trails').hide();
-    $('#bandera-mountain').show();
-    $('#map').show();
+    $('.moderate-pictures').hide();
+    $('.difficult-pictures').hide();
+    $('.easy-pic-list').hide();
+    $('.moderate-pic-list').hide();
+    $('.difficult-pic-list').hide();
+    $('#map').hide();
+    $('.movie').hide();
+    $('.easy-pictures').hide('slow');
     $('.home-title').hide();
-    $('.easy-title').hide();
+    $('.easy-title').hide('slow');
     $('.moderate-title').hide();
     $('.difficult-title').hide();
+    $('form').show();
     $('.home-background' ).removeClass().addClass('page-background');
-    $('#map' ).removeClass().addClass('trail-map');
   };
 
 

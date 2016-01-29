@@ -4,7 +4,7 @@ page('/', indexController.index);
 page('/easy', easyController.index);
 page('/moderate', moderateController.index);
 page('/difficult', difficultController.index);
-// page('/aboutUs', aboutUsController.index);
+page('/aboutUs', aboutController.index);
 page('/easy/rattlesnakeRidge', rattlesnakeRidgeController.index);
 page('/easy/pretzelTree', pretzelTreeController.index);
 page('/easy/coalCreek', coalCreekController.index);
