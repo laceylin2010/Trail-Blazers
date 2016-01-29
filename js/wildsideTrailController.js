@@ -8,6 +8,9 @@
     $('.easy-title').hide();
     $('.moderate-title').hide();
     $('.difficult-title').hide();
+    $('.easy-pic-list').hide();
+    $('.moderate-pic-list').hide();
+    $('.difficult-pic-list').hide();
     $('#trail-template').show();
     $('#wildside-trail').show();
     $('#map').show();

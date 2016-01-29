@@ -7,6 +7,11 @@
       $('.hiking-pic-bar').hide();
       $('#trail-template').hide();
       $('#map').hide();
+      $('.easy-pic-list').hide();
+      $('.moderate-pic-list').show();
+      $('.difficult-pic-list').hide();
+      $('.easy-pictures').hide();
+      $('.difficult-pictures').hide();
       $('.moderate-pictures').fadeIn('slow');
       $('.home-title').hide();
       $('.easy-title').hide();
