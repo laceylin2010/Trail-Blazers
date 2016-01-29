@@ -5,11 +5,18 @@ body{
 }
 
 nav{
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#006e2e+0,006e2e+56,006e2e+100 */
+  background-color: #116416;
+  opacity: 0.98;
+
+  position: fixed;
+  top: 0;
+  z-index: 1;
   background-color: #A1EF8C;
   padding: 20px;
   position: relative;
   box-shadow: inset 0 -10px 0 0 rgba(78, 127, 103, 100);
-}
+
 
 #hamburger {
   width: 3em;

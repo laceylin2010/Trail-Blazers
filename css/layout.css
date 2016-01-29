@@ -1,11 +1,15 @@
 #trail-template{
   display:none;
-  float:left;
-  /*width:50%;*/
-
-  margin-top: 2em;
-  /*margin-right: 4em;*/
-  margin-left:2em;
+  float:none;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 12%;
+}
+.hike-image{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .clear{
@@ -19,9 +23,6 @@
 
 }
 
-.hike-image{
-  width: 80%;
-}
 /*NOAHS HOME PAGE CHANGES*/
 .home-background{
   background-image: url("/../imgs/home-background.jpg");
@@ -45,7 +46,7 @@
 .easy-title,
 .moderate-title,
 .difficult-title{
-  margin-top: 2%;
+  margin-top: 8%;
   margin-bottom: 0;
   color: white;
   text-align: center;
@@ -62,10 +63,11 @@
 }
 .trail-map{
   display: block;
-  float: right;
+  float: none;
   width: 500px;
   height: 400px;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
+  margin-top: 45%;
+  margin-left: auto;
+  margin-right: auto;
 }
+/*NAV BAR*/
