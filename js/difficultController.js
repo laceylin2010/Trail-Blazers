@@ -10,6 +10,7 @@
     $('form').hide();
     $('.difficult-pic-list').show();
     $('#map').hide();
+    $('.form-title')/hide();
     $('.home-title').hide();
     $('.easy-title').hide();
     $('.moderate-title').hide();

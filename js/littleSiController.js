@@ -9,10 +9,11 @@
     $('.moderate-title').hide();
     $('.difficult-title').hide();
     $('.easy-pic-list').hide();
-    $('form').hide();  
+    $('form').hide();
     $('.moderate-pic-list').hide();
     $('.difficult-pic-list').hide();
     $('.movie').hide();
+    $('.form-title')/hide();
     $('#trail-template').show();
     $('#little-si').show();
     $('#map').show();

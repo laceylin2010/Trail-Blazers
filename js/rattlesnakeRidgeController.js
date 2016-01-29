@@ -8,11 +8,12 @@
     $('.easy-title').hide();
     $('.moderate-title').hide();
     $('.difficult-title').hide();
-    $('form').hide();  
+    $('form').hide();
     $('.easy-pic-list').hide();
     $('.moderate-pic-list').hide();
     $('.difficult-pic-list').hide();
     $('.movie').hide();
+    $('.form-title')/hide();
     $('#trail-template').show();
     $('#rattlesnake-ridge').show();
     $('#map').show();
