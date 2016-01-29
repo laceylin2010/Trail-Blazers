@@ -12,6 +12,7 @@ function(module){
       $('.moderate-pictures').hide();
       $('.difficult-pictures').hide();
       $('.easy-pic-list').hide();
+      $('form').hide();  
       $('.moderate-pic-list').hide();
       $('.difficult-pic-list').hide();
       $('#map').show();

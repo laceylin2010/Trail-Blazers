@@ -7,6 +7,7 @@
     $('.easy-pictures').hide();
     $('.easy-pic-list').hide();
     $('.moderate-pic-list').hide();
+    $('form').hide();
     $('.difficult-pic-list').show();
     $('#map').hide();
     $('.home-title').hide();

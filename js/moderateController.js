@@ -8,6 +8,7 @@
       $('#trail-template').hide();
       $('#map').hide();
       $('.easy-pic-list').hide();
+      $('form').hide();  
       $('.moderate-pic-list').show();
       $('.difficult-pic-list').hide();
       $('.easy-pictures').hide();
