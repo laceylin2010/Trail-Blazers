@@ -12,7 +12,7 @@ function(module){
       $('.moderate-pictures').hide();
       $('.difficult-pictures').hide();
       $('#map').show();
-      $('.home-title').show();
+      $('.home-title').fadeIn('slow');
       $('.easy-title').hide();
       $('.moderate-title').hide();
       $('.difficult-title').hide();

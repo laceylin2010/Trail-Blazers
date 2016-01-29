@@ -7,10 +7,10 @@
       $('.hiking-pic-bar').hide();
       $('#trail-template').hide();
       $('#map').hide();
-      $('.moderate-pictures').show();
+      $('.moderate-pictures').fadeIn('slow');
       $('.home-title').hide();
       $('.easy-title').hide();
-      $('.moderate-title').show();
+      $('.moderate-title').fadeIn('slow');
       $('.difficult-title').hide();
       $('.home-background' ).removeClass().addClass('page-background');
       $('#map' ).removeClass().addClass('trail-map');
